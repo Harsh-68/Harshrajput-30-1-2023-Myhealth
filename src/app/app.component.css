@@ -1,0 +1,42 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* .background-image
+{
+   
+    /* background-image: url("app/assets/young-handsome-physician-medical-robe-with-stethoscope.jpg"); 
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+} */
+.hr-lines{
+    position: relative;
+    max-width: 1500px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.hr-lines:before{
+    content: " ";
+    height: 1px;
+    width: 600px;
+    background: black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.hr-lines:after{
+    content: " ";
+    height: 1px;
+    width: 600px;
+    background: black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+
+}
